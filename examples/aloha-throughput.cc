@@ -334,7 +334,7 @@ main(int argc, char* argv[])
             MakeCallback(OnTransmissionCallback));
     }
 
-    LorawanMacHelper::SetSpreadingFactorsUp(endDevices, gateways, channel);
+    LorawanMacHelper::SetSpreadingFactorsUp(endDevices, gateways, channel,5);
 
     ////////////////
     // Simulation //

@@ -148,7 +148,7 @@ main(int argc, char* argv[])
     macHelper.SetDeviceType(LorawanMacHelper::GW);
     helper.Install(phyHelper, macHelper, gateways);
 
-    LorawanMacHelper::SetSpreadingFactorsUp(endDevices, gateways, channel);
+    LorawanMacHelper::SetSpreadingFactorsUp(endDevices, gateways, channel,4);
 
     /*********************************************
      *  Install applications on the end devices  *
